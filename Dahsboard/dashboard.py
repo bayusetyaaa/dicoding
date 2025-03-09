@@ -49,7 +49,7 @@ def create_byhr_df(df):
     return byhr_df
 
 # Load cleaned data
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("/workspaces/dicoding/Dahsboard/all_data.csv")
 
 # Filter data
 min_date = all_df["dteday_x"].min()
